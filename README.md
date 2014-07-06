@@ -9,6 +9,21 @@ This is a simple, skeleton application using the ZF2 MVC layer and module
 systems. This application is meant to be used as a starting place for those
 looking to get their feet wet with ZF2.
 
+This skeleton includes some useful modules:
+
+* [Zend Developer Tools](https://github.com/zendframework/ZendDeveloperTools)
+* [ZFTool](https://github.com/zendframework/ZFTool)
+* [Doctrine/Common](https://github.com/doctrine/common)
+* [Doctrine/DoctrineModule](https://github.com/doctrine/DoctrineModule)
+* [Doctrine/DoctrineORMModule](https://github.com/doctrine/DoctrineORMModule)
+* [Doctrine/DataFixtures](https://github.com/doctrine/data-fixtures)
+* [Doctrine/Migrations](https://github.com/doctrine/migrations)
+* [bjy-authorize](https://github.com/bjyoungblood/BjyAuthorize)
+* [ZfCommons/ZfcBase](https://github.com/ZF-Commons/ZfcBase)
+* [ZfCommons/ZfcUser](https://github.com/ZF-Commons/ZfcUser)
+* [ZfCommons/ZfcUserDoctrineORM](https://github.com/ZF-Commons/ZfcUserDoctrineORM)
+* [FirePHP](https://github.com/firephp/firephp-core)
+
 Installation
 ------------
 
