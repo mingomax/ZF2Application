@@ -36,4 +36,18 @@ class Module
             ),
         );
     }
+
+    public function getServiceConfig()
+    {
+        return array(
+            'factories' => array(
+                'Zend\Log\FirePhp' => function ($sm) {
+                    $writer_firebug = new \Zend\Log\Writer\FirePhp();
+                    $logger = new \Zend\Log\Logger();
+                    $logger ->addWriter($writer_firebug);
+                    return $logger;
+                },
+            ),
+        );
+    }
 }

@@ -10,6 +10,18 @@
     "require": {
         "php": ">=5.3.3",
         "zendframework/zendframework": "2.3.*",
-        "doctrine/DoctrineORMModule": "dev-master"
+        "zendframework/zend-developer-tools": "dev-master",
+        "zendframework/zftool": "dev-master",
+        "doctrine/common": ">=2.1",
+        "doctrine/doctrine-module": "dev-master",
+        "doctrine/doctrine-orm-module": "dev-master",
+        "bjyoungblood/bjy-profiler": "dev-master",
+        "bjyoungblood/bjy-authorize": "1.2.*",
+        "zf-commons/zfc-base": "0.*",
+        "zf-commons/zfc-user": "0.*",
+        "symfony/yaml":"*",
+        "doctrine/data-fixtures":"dev-master",
+        "doctrine/migrations":"dev-master",
+        "firephp/firephp-core":"dev-master"
     }
 }
